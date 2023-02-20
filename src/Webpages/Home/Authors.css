@@ -1,0 +1,48 @@
+.container {
+  /* background-color: rgb(211, 235, 235); */
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://www.shutterstock.com/image-photo/news-pages-articles-torn-pieces-260nw-1712978185.jpg"); */
+  /* background-repeat:repeat ; */
+  /* background-size:cover; */
+}
+.ViewPage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.authorCard {
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  padding: 1.6rem;
+  background-color: #f9f5ff;
+  border-radius: 99px;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  font-style: oblique;
+}
+
+.cardActions {
+  display: flex;
+  gap: 3rem;
+  align-content: space-between;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.authors_names {
+  font-style: oblique;
+}
+.edit_btn {
+  background-color: rgb(119, 128, 0);
+}
+button {
+  background-color: rgb(71, 71, 208);
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+}

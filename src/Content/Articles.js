@@ -1,0 +1,85 @@
+export const articles = [
+  {
+    id: 1,
+    title: "Top 4 things to learn as a frontend developer!",
+    img: "https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1",
+    createdAt: "13 Feb,2023",
+    updatedAt: "13 Feb,2023",
+    text: "Here are the top things to learn as a front end developer. 1) HTML 2)CSS 3)JS 4) React",
+    categoryId: "1",
+    author: "Plp",
+  },
+  {
+    id: 2,
+    title: "Jairam Ramesh from the INC Party",
+    img: "https://th-i.thgim.com/public/incoming/lxdizw/article66526584.ece/alternates/LANDSCAPE_1200/16_Jairam_Ramesh_14_02_Delhi.jpg",
+    createdAt: "14 Feb,2023",
+    updatedAt: "14 Feb,2023",
+    text: "Jairam Ramesh is a Rajyasabha leader from the Congress Party. He heads media department of the Indian national congress also known as INC",
+    categoryId: "2",
+    author: "Plp",
+  },
+  {
+    id: 3,
+    title: "Top things to learn as a backend developer!",
+    img: "https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=1024x1024&w=is&k=20&c=JHHxZ25gIwgBtYyFxziTFrOuilyogTzs5KQKBhsaZhE=",
+    createdAt: "15 Feb,2023",
+    updatedAt: "15 Feb,2023",
+    text: "Here are the top things to learn as a backend developer. by learning this, we can do much more in the backend. 1) Django 2) Ruby on Rails ",
+    categoryId: "3",
+    author: "Plp",
+  },
+  {
+    id: 4,
+    title: "Top things happening in the world",
+    img: "https://th-i.thgim.com/public/incoming/pdlaow/article66528071.ece/alternates/LANDSCAPE_1200/IMG_Negotiations_for_Ind_2_1_O8ABN46C.jpg",
+    createdAt: "16 Feb,2023",
+    updatedAt: "16 Feb,2023",
+    text: "Here are the top things happening in the world. There are representatives from the different countries. These are present current affairs in World.",
+    categoryId: "4",
+    author: "Plp",
+  },
+  {
+    id: 5,
+    title: "Here is all you need to know about ChatGPT",
+    img: "https://c.ndtvimg.com/2023-01/6uld4jdg_chatgpt-getty_625x300_17_January_23.jpg",
+    createdAt: "17 Feb,2023",
+    updatedAt: "17 Feb,2023",
+    text: "ChatGPT is now talk of the world. It is owned by the OpenAI in which Microsoft has invested a very large amount of money.",
+    categoryId: "5",
+    author: "Plp",
+  },
+  {
+    id: 6,
+    title: "Sanctions-hit Russia pitches manufacture of its civil jet in India",
+    img: "https://th-i.thgim.com/public/latest-news/dgc5rb/article66526566.ece/alternates/LANDSCAPE_1200/SukhoiSuperjet100.jpg",
+    createdAt: "18 Feb,2023",
+    updatedAt: "18 Feb,2023",
+    text: "Sanctions-hit Russia, which is going for import substitution in a big way, has proposed to manufacture.",
+    categoryId: "6",
+    author: "Plp",
+  },
+];
+
+export const categories = [
+  {
+    cat_id: 1,
+    cat_name: "Technology",
+  },
+  {
+    cat_id: 2,
+    cat_name: "Politics",
+  },
+  {
+    cat_id: 3,
+    cat_name: "Movies",
+  },
+  {
+    cat_id: 4,
+    cat_name: "Sports",
+  },
+  {
+    cat_id: 5,
+    cat_name: "Music",
+  },
+];

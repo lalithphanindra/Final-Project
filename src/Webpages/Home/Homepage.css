@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hi {
+  color: green;
+  padding-top: 20px;
+}
+.head {
+  text-decoration: none;
+}
